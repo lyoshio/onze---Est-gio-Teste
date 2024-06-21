@@ -1,40 +1,60 @@
-# Entenda o Caso
+# Guia de Uso do Projeto
 
-Este projeto consiste em um formulário simples desenvolvido em HTML, CSS e JavaScript para capturar informações sobre uma notícia ou caso específico e gerar um texto formatado com base nos dados inseridos. Abaixo, você encontrará informações básicas sobre como utilizar e configurar este projeto.
-
-## Utilização
-
-1. **Preenchimento do Formulário:**
-
-   - Preencha os campos conforme solicitado:
-     - **Data de publicação da notícia:** Insira a data de publicação da notícia relacionada ao caso.
-     - **Descreva o caso em poucas palavras:** Forneça uma breve descrição do caso, incluindo quem, o quê, onde, quando e porquê.
-     - **Contexto e informação adicional:** Adicione informações relevantes adicionais sobre o contexto do caso.
-     - **Parte/Fonte:** Informe a parte ou fonte envolvida no caso.
-     - **Por que entender o caso importa?** Explique sucintamente por que este caso é relevante para o leitor.
-     - **Deseja incluir um link para um vídeo do Youtube?** Opcionalmente, insira o link completo para um vídeo relacionado ao caso.
-
-2. **Gerar Saída:**
-
-   - Clique no botão "Gerar" para processar as informações.
-   - As informações inseridas serão formatadas em um texto estruturado e exibidas na área "Saídas geradas" abaixo do formulário.
-
-3. **Limpar Campos:**
-   - Após gerar a saída, os campos do formulário serão automaticamente limpos para inserção de novos dados.
-
-## Estrutura do Projeto
-
-- **HTML:** Define a estrutura do formulário e a área de exibição da saída gerada.
-- **CSS:** Estiliza o formulário e a caixa de saída para uma melhor apresentação visual.
-- **JavaScript:** Captura os dados inseridos pelo usuário, formata o texto com esses dados e exibe na área designada.
+Este guia fornece instruções detalhadas para configurar e usar o projeto localmente. Siga os passos abaixo para garantir uma configuração correta e uma utilização adequada.
 
 ## Pré-requisitos
 
-- Navegador da web compatível com HTML5, CSS3 e JavaScript.
+Antes de começar, certifique-se de ter instalado os seguintes programas:
 
-## Contribuições
+- **Node.js e npm**: Utilizados para executar o servidor Node.js e gerenciar as dependências do projeto.
+- **SQLite**: Banco de dados utilizado para armazenar e consultar os dados localmente.
 
-Contribuições são bem-vindas para melhorias e correções neste projeto. Sinta-se à vontade para enviar pull requests.
+## Passo 1: Clonar o Repositório
+
+Clone o repositório do projeto do GitHub para o seu ambiente local:
+
+```bash
+git clone https://github.com/seu-usuario/seu-projeto.git
+cd seu-projeto
+```
+
+## Passao 2: Instalar Dependências
+
+No diretório raiz do projeto, instale as dependências necessárias usando npm:
+
+```bash
+npm install
+```
+
+## Passao 3: Configurar o Banco de Dados
+
+Certifique-se de que o SQLite esteja instalado e configurado corretamente no seu sistema.
+
+## Passao 4: Executar o Servidor
+
+Para iniciar o servidor Node.js e executar o projeto:
+
+```bash
+node server.js
+```
+
+O servidor será iniciado na porta padrão (geralmente 3000). Você pode acessar o projeto em seu navegador usando o seguinte URL: http://localhost:3000.
+
+## Passo 5: Utilização do Projeto
+
+Após iniciar o servidor, você pode interagir com o projeto da seguinte maneira:
+
+• Preencha o formulário disponível no projeto com as informações necessárias.
+• Clique no botão "Enviar" para processar os dados inseridos.
+• A saída gerada com base nos dados inseridos será exibida na interface do usuário, no elemento designado para isso.
+
+## Paso 6: Consultar o Banco de Dados (Opcional)
+
+Se desejar consultar diretamente o banco de dados SQLite utilizado pelo projeto, você pode:
+
+Utilizar o SQLite CLI ou um cliente GUI para executar consultas SQL no arquivo database.sqlite.
+
+Exemplo de cliente para consulta pode ser o DB Browser for SQLITE : https://sqlitebrowser.org/dl/
 
 ## Autor
 
