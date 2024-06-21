@@ -44,8 +44,8 @@ O servidor será iniciado na porta padrão (geralmente 3000). Você pode acessar
 
 Após iniciar o servidor, você pode interagir com o projeto da seguinte maneira:
 
-• Preencha o formulário disponível no projeto com as informações necessárias.
-• Clique no botão "Enviar" para processar os dados inseridos.
+• Preencha o formulário disponível no projeto com as informações necessárias.  \
+• Clique no botão "Enviar" para processar os dados inseridos. \
 • A saída gerada com base nos dados inseridos será exibida na interface do usuário, no elemento designado para isso.
 
 ## Paso 6: Consultar o Banco de Dados (Opcional)
